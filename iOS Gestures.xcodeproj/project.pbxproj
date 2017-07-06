@@ -12,6 +12,12 @@
 		FFDDDEED1F0EA2710004029F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDDDEEB1F0EA2710004029F /* Main.storyboard */; };
 		FFDDDEEF1F0EA2710004029F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFDDDEEE1F0EA2710004029F /* Assets.xcassets */; };
 		FFDDDEF21F0EA2710004029F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDDDEF01F0EA2710004029F /* LaunchScreen.storyboard */; };
+		FFDDDEFB1F0EA7E50004029F /* PanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDDDEFA1F0EA7E50004029F /* PanViewController.m */; };
+		FFDDDEFE1F0EA7EC0004029F /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDDDEFD1F0EA7EC0004029F /* TapViewController.m */; };
+		FFDDDF011F0EB2CD0004029F /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDDDF001F0EB2CD0004029F /* PinchViewController.m */; };
+		FFDDDF041F0EBC7C0004029F /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDDDF031F0EBC7C0004029F /* SwipeViewController.m */; };
+		FFDDDF071F0EC98A0004029F /* RotateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDDDF061F0EC98A0004029F /* RotateViewController.m */; };
+		FFDDDF0A1F0ED0670004029F /* ScreenEdgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDDDF091F0ED0670004029F /* ScreenEdgeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +29,18 @@
 		FFDDDEEE1F0EA2710004029F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFDDDEF11F0EA2710004029F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFDDDEF31F0EA2710004029F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFDDDEF91F0EA7E50004029F /* PanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanViewController.h; sourceTree = "<group>"; };
+		FFDDDEFA1F0EA7E50004029F /* PanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanViewController.m; sourceTree = "<group>"; };
+		FFDDDEFC1F0EA7EC0004029F /* TapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapViewController.h; sourceTree = "<group>"; };
+		FFDDDEFD1F0EA7EC0004029F /* TapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
+		FFDDDEFF1F0EB2CD0004029F /* PinchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchViewController.h; sourceTree = "<group>"; };
+		FFDDDF001F0EB2CD0004029F /* PinchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
+		FFDDDF021F0EBC7C0004029F /* SwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwipeViewController.h; path = ../SwipeViewController.h; sourceTree = "<group>"; };
+		FFDDDF031F0EBC7C0004029F /* SwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwipeViewController.m; path = ../SwipeViewController.m; sourceTree = "<group>"; };
+		FFDDDF051F0EC98A0004029F /* RotateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateViewController.h; sourceTree = "<group>"; };
+		FFDDDF061F0EC98A0004029F /* RotateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateViewController.m; sourceTree = "<group>"; };
+		FFDDDF081F0ED0670004029F /* ScreenEdgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenEdgeViewController.h; sourceTree = "<group>"; };
+		FFDDDF091F0ED0670004029F /* ScreenEdgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenEdgeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,18 @@
 			isa = PBXGroup;
 			children = (
 				FFDDDEEB1F0EA2710004029F /* Main.storyboard */,
+				FFDDDEF91F0EA7E50004029F /* PanViewController.h */,
+				FFDDDEFA1F0EA7E50004029F /* PanViewController.m */,
+				FFDDDEFC1F0EA7EC0004029F /* TapViewController.h */,
+				FFDDDEFD1F0EA7EC0004029F /* TapViewController.m */,
+				FFDDDEFF1F0EB2CD0004029F /* PinchViewController.h */,
+				FFDDDF001F0EB2CD0004029F /* PinchViewController.m */,
+				FFDDDF021F0EBC7C0004029F /* SwipeViewController.h */,
+				FFDDDF031F0EBC7C0004029F /* SwipeViewController.m */,
+				FFDDDF051F0EC98A0004029F /* RotateViewController.h */,
+				FFDDDF061F0EC98A0004029F /* RotateViewController.m */,
+				FFDDDF081F0ED0670004029F /* ScreenEdgeViewController.h */,
+				FFDDDF091F0ED0670004029F /* ScreenEdgeViewController.m */,
 				FFDDDEEE1F0EA2710004029F /* Assets.xcassets */,
 				FFDDDEE21F0EA2710004029F /* Supporting Files */,
 			);
@@ -146,7 +176,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFDDDEFB1F0EA7E50004029F /* PanViewController.m in Sources */,
+				FFDDDF0A1F0ED0670004029F /* ScreenEdgeViewController.m in Sources */,
+				FFDDDF071F0EC98A0004029F /* RotateViewController.m in Sources */,
 				FFDDDEE71F0EA2710004029F /* AppDelegate.m in Sources */,
+				FFDDDF011F0EB2CD0004029F /* PinchViewController.m in Sources */,
+				FFDDDF041F0EBC7C0004029F /* SwipeViewController.m in Sources */,
+				FFDDDEFE1F0EA7EC0004029F /* TapViewController.m in Sources */,
 				FFDDDEE41F0EA2710004029F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
