@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="rrs-sA-GRG">
+            <objects>
+                <tabBarController id="9qB-36-19C" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Wjh-QE-IRX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="e8h-Jm-T1T" kind="relationship" relationship="viewControllers" id="jL4-sQ-kSC"/>
+                        <segue destination="ees-92-mZs" kind="relationship" relationship="viewControllers" id="ve3-oK-qCZ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SUv-vN-DY3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-663" y="17"/>
+        </scene>
+        <!--Tap-->
+        <scene sceneID="l4R-Te-U0a">
+            <objects>
+                <viewController id="ees-92-mZs" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fGJ-NL-gTP"/>
+                        <viewControllerLayoutGuide type="bottom" id="FnK-4t-MOG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5OZ-N1-Gab">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tap" image="item2" id="DRD-1a-cQl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l7m-OJ-MKJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="471" y="381"/>
+        </scene>
+        <!--Pan -->
+        <scene sceneID="U0A-Bi-HXq">
+            <objects>
+                <viewController id="e8h-Jm-T1T" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0Mx-8B-ftv"/>
+                        <viewControllerLayoutGuide type="bottom" id="doM-E3-nYP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dul-y4-c8y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Pan " image="item1" id="CpF-IE-hk0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jMz-fK-vP2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="454" y="-381"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="item1" width="30" height="30"/>
+        <image name="item2" width="30" height="28"/>
+    </resources>
+</document>
